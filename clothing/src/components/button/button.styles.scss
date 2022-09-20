@@ -9,7 +9,7 @@
     background-color: black;
     color: white;
     text-transform: uppercase;
-    font-family: 'Open Sans Condensed';
+    font-family: 'Roboto', sans-serif;
     font-weight: bolder;
     border: none;
     cursor: pointer;
@@ -25,6 +25,10 @@
     &.google-sign-in {
       background-color: #4285f4;
       color: white;
+      position: relative;
+      left: 180px;
+      bottom: 50px;
+      
   
       &:hover {
         background-color: #357ae8;
