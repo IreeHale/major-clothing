@@ -9,7 +9,6 @@ import  { UserContext } from '../../context/user.context';
 const defaultformFields = {
     email: '',
     password: '',
-
 }
 
 const SignInForm = () => {
