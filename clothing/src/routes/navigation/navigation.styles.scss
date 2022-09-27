@@ -1,14 +1,15 @@
 .navigation {
-    height: 70px;
+    height: 90px;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 25px;
+    padding: 23px 30px 50px 5px;
   
     .logo-container {
       height: 100%;
-      width: 70px;
-      padding: 5px;
+      width: 50px;
+      position: relative;
+      bottom: 15px;
     }
   
     .nav-links-container {
@@ -16,7 +17,6 @@
       height: 100%;
       display: flex;
       align-items: center;
-      justify-content: flex-end;
   
       .nav-link {
         padding: 5px 5px;
