@@ -14,7 +14,7 @@ const DirectoryItem = ({ category }) => {
             }} />
             <div className="body">
             <h2>{title}</h2>
-            <p>Shop Now</p>
+            <p>Shop No</p>
             </div>
       </div>
     );
