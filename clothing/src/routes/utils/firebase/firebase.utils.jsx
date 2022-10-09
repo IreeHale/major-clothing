@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { initializeApp } from 'firebase/app';
 import { 
     getAuth, 
@@ -20,6 +21,7 @@ const firebaseConfig = {
     appId: "1:541576263737:web:1072e948783968bc7db5e8"
   };
 
+  // eslint-disable-next-line no-unused-vars
   const firebaseApp = initializeApp(firebaseConfig);
 
   const provider = new GoogleAuthProvider();

@@ -1,8 +1,9 @@
-import { useState, useContext } from "react";
+import { useState } from "react";
 import { createAuthUserWithEmailAndPassword, createUserDocumentFromAuth} from '../../routes/utils/firebase/firebase.utils';
 import FormInput from "../form-input/form-input.component";
 import './sign-up-form.styles.scss';
 import Button from '../button/button.component';
+// eslint-disable-next-line no-unused-vars
 import { UserContext } from '../../context/user.context';
 
 
